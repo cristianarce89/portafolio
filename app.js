@@ -1,30 +1,13 @@
 const express = require("express");
 const app = express();
-app.use(express.static('public'));
-const rutasMain = require("./routes/main");
-const rutasAbout = require("./routes/about");
+const path = require('path')
 
+app.use(express.static(path.join(__dirname, 'public')));
+console.log(__dirname)
+
+const rutasMain = require("./routes/main");
+app.use("/", rutasMain)
 
 app.listen(3000, () => {
     console.log("Portafolio corriendo en el puerto 3000")
 })
-
-
-app.use("/", rutasMain)
-app.use("about", rutasAbout)
-
-
-//juliana - juliana es una mujer muy amable
-
-//esto es un nuevo cambio que voy a realizar 
-
-// daviddiaz
-
-// daviddiaz,  es un muy buen trabajor
-//esto es un nuevo cambio que voy a realizar - cristian, fabio y david son muy buenos compañeros
-
-// daviddiaz
-
-
-
-//llegue tarde
