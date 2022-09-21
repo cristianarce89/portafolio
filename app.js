@@ -19,3 +19,6 @@ app.use("about", rutasAbout)
 //esto es un nuevo cambio que voy a realizar 
 
 // daviddiaz,  es un muy buen trabajor
+//esto es un nuevo cambio que voy a realizar - cristian, fabio y david son muy buenos compañeros
+
+// daviddiaz
