@@ -14,8 +14,8 @@ app.use("/", rutasMain)
 app.use("about", rutasAbout)
 
 
-//juliana
+//juliana - juliana es una mujer muy amable
 
-//esto es un nuevo cambio que voy a realizar
+//esto es un nuevo cambio que voy a realizar 
 
-// daviddiaz
+// daviddiaz,  es un muy buen trabajor
