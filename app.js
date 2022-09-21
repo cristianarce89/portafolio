@@ -16,6 +16,6 @@ app.use("about", rutasAbout)
 
 //juliana
 
-//esto es un nuevo cambio que voy a realizar
-// listo de una escribo en la linea 20
-// daviddiaz 
+//esto es un nuevo cambio que voy a realizar - cristian, fabio y david son muy buenos compañeros
+
+// daviddiaz
